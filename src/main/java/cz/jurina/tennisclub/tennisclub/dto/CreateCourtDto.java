@@ -2,6 +2,7 @@ package cz.jurina.tennisclub.tennisclub.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * Data Transfer Object used for creating a new tennis court.
@@ -12,6 +13,7 @@ import lombok.Data;
  */
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
 public class CreateCourtDto {
     private String surfaceType;
 }

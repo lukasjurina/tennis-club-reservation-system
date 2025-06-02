@@ -2,6 +2,7 @@ package cz.jurina.tennisclub.tennisclub.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * Data Transfer Object representing a tennis court with surface details.
@@ -13,6 +14,7 @@ import lombok.Data;
  */
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
 public class CourtDto {
     private Long id;
     private String surfaceType;
