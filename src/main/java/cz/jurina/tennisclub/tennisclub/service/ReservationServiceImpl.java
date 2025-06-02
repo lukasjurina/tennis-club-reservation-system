@@ -84,7 +84,7 @@ public class ReservationServiceImpl implements ReservationService {
 
     private void testId(Long id) {
         if (reservationDao.findById(id) == null){
-            throw new IllegalArgumentException("Court with id " + id + " does not exist");
+            throw new IllegalArgumentException("Reservation with id " + id + " not found");
         }
     }
 

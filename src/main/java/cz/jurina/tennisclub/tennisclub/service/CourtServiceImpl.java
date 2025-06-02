@@ -68,7 +68,7 @@ public class CourtServiceImpl implements CourtService {
 
         for (CourtSurface surface : surfaces) {
             if (surface.getSurfaceType().equals(newSurface)) {
-                Court court = courtDao.findById(surface.getId());
+                Court court = courtDao.findById(id);
                 court.setCourtSurface(surface);
                 courtDao.save(court);
                 return;
