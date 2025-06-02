@@ -10,13 +10,8 @@ import java.time.LocalDateTime;
 /**
  * Data Transfer Object representing a reservation.
  *
- * Contains all relevant information about a reservation, including:
- * - IDs for reservation and court
- * - Customer details
- * - Reservation time window
- * - Type of game (single or double)
- * - Price of the reservation
- * - Timestamp when the reservation was created
+ * Contains reservation id, courtID, customer details,
+ * reservation time slot, game type, price, time created
  *
  * Date-time fields use the format "dd.MM.yyyy HH:mm".
  *

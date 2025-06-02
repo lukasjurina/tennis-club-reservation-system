@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 /**
  * Data Transfer Object used for creating a new tennis court.
  *
- * Contains only the surface type, which links the court to an existing court surface.
+ * Contains only the surface type;
  *
  * @author Lukas Jurina
  */

@@ -11,7 +11,7 @@ import lombok.Data;
 /**
  * Entity representing a surface type used on tennis courts.
  *
- * Each surface type has a name and price, and supports soft deletion.
+ * Each surface type has a name and price, soft delete is supported.
  * Courts are linked to a surface with this entity.
  *
  * Mapped to the "court_surfaces" table in the database.

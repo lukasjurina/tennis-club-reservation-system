@@ -14,7 +14,7 @@ import lombok.Data;
  * Entity representing a tennis court at the club.
  *
  * Each court is associated with a specific surface type.
- * Courts support soft deletion.
+ * Soft delete is supported.
  *
  * Mapped to the "courts" table in the database.
  *

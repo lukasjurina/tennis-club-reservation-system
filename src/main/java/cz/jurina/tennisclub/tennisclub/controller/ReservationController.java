@@ -81,7 +81,7 @@ public class ReservationController {
     }
 
     /**
-     * Cancels (deletes) a reservation by ID.
+     * Deletes a reservation by ID.
      *
      * @param id the ID of the reservation to delete
      * @return HTTP 200 OK if cancellation is successful

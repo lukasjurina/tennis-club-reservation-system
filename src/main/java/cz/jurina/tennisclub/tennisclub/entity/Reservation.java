@@ -16,8 +16,8 @@ import java.time.LocalDateTime;
 /**
  * Entity representing a reservation of a tennis court by a customer.
  *
- * A reservation includes information about the customer, the court, the time range,
- * pricing, and whether it is a singles or doubles game. Soft delete is supported.
+ * A reservation has information about the customer, the court, the time range,
+ * pricing, type of game. Soft delete is supported.
  *
  * Automatically sets the creation date before persisting.
  *
