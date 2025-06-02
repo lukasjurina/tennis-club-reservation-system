@@ -35,7 +35,7 @@ public class CourtController {
      * Creates a new tennis court.
      *
      * @param dto DTO containing surface type for the new court
-     * @return HTTP 200 OK if court is created successfully
+     * @return HTTP status
      */
     @PostMapping
     public ResponseEntity<Void> createCourt(@RequestBody CreateCourtDto dto) {
@@ -68,7 +68,7 @@ public class CourtController {
      * Deletes a court by its ID.
      *
      * @param id the ID of the court to delete
-     * @return HTTP 200 OK if deletion is successful
+     * @return HTTP status
      */
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> deleteCourt(@PathVariable Long id) {
@@ -81,7 +81,7 @@ public class CourtController {
      *
      * @param id the ID of the court to update
      * @param dto DTO containing the new surface type
-     * @return HTTP 200 OK if update is successful
+     * @return HTTP status
      */
     @PutMapping("/{id}")
     public ResponseEntity<Void> updateCourtSurface(@PathVariable Long id, @RequestBody CreateCourtDto dto) {

@@ -84,7 +84,7 @@ public class ReservationController {
      * Deletes a reservation by ID.
      *
      * @param id the ID of the reservation to delete
-     * @return HTTP 200 OK if cancellation is successful
+     * @return HTTP status
      */
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> deleteReservation(@PathVariable Long id) {
